@@ -2,9 +2,7 @@
 
 ## Overview
 
-AlphaWAN addresses the decoder contention problem in LoRaWANs, enhancing capacity and coexistence among networks. This repository contains the key components, deployment instructions, and evaluation scripts to implement AlphaWAN and reproduce the results presented in our SIGCOMM 2025 paper.
-
-We include setup guides for the **network server**, **gateways**, and **nodes**. Operators can follow the example provided to generate and apply optimized channel configurations suitable for their network devices.
+This repository releases measurement traces collected from an operational LEO satellite IoT network and reproduces the results presented in our SIGCOMM 2026 paper.
 
 ## Repository Structure
 
