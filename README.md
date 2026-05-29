@@ -1,4 +1,4 @@
-# **[Towards Next-Generation Global IoT: Empowering Massive Connectivity with Harmonious Multi-Network Coexistence](https://a1phawan.github.io/)**
+# **[Planet-Scale IoT Connectivity via LEO Satellites](https://a1phawan.github.io/)**
 
 ## Overview
 
