@@ -1,0 +1,26 @@
+&&AT+RETEST;
+
+&&AT+LEVELSET,5,;
+
+&&AT+TESTOVER;
+
+COM10  14150   
+COM12 14127     new
+
+11   14095   new
+
+9   12171
+
+5   12185
+
+6   12174 
+
+13  14111   new
+
+14  14149
+
+DEVICE_CONFIGS = [
+    {"logical_id": 1, "hw_id": 14127, "port": "COM12"},
+    {"logical_id": 2, "hw_id": 14111, "port": "COM13"},
+    {"logical_id": 3, "hw_id": 14149, "port": "COM14"},
+]
