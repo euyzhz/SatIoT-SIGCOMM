@@ -7,12 +7,12 @@ This repository releases measurement traces collected from an operational LEO sa
 ## Repository Structure
 
 ```graphql
-AlphaWAN/
+SatIoT-SIGCOMM26/
 ├── Constellation-calender/      # This data describes the orbital position and motion state of a satellite over time, helping predict satellite passes, visibility windows, and potential communication opportunities.
 ├── Energy profile/              # xxx
 ├── Evaluation/                  # xxx
 ├── Link-testing-data/           # xxx
-├── PHY-=trace/                  # xxx
+├── PHY-trace/                   # xxx
 ├── Satellite-signaling/         # xxx
 └── README.md                    # This file
 ```
@@ -29,26 +29,22 @@ If you're new, follow the manual in each directory:
 ## Requirements
 ### 🔩 Hardware
 
-- **Server**: A workstation with Ethernet/WiFi connectivity for gateway backhaul and ChirpStack hosting.
-- **Gateways**: COTS LoRaWAN gateways (e.g., WisGate RAK7268CV2).
+- **Server**: A workstation with Ethernet/WiFi connectivity for Satellite data backhaul.
+- **Devices**: COTS satellite IoT devices (e.g., TQZD-10).
     
-    *Minimum: 3 gateways.*
+    *Minimum: 3 devices.*
     
-- **LoRa Nodes**: SX1276 radios (e.g., Dragino LoRa Shield) with Arduino Uno boards.
-    
-    *Recommended: ≥ 48 nodes for full-scale evaluation.*
+- **Host**: A device that can be used for serial communication (computer recommended).
     
 
 ### 💻 Software
 
-- **MATLAB**: R2023b
-- **Arduino IDE**: v1.8.X
-- **Docker Desktop**: v4.35.X (for Windows OS)
+- **Tools**：Serial Port PC Software
 - **Operating System**: Windows 10 or Ubuntu 22.04 LTS
 
 ## Reproducing Results
 
-If you don’t have enough experimental devices, you can evaluate AlphaWAN through our provided data traces and experiment scripts under `Evaluation/`. Refer to readme in the corresponding folders for details.
+xxx.
 
 ## Contact
 
