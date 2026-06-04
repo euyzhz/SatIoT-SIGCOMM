@@ -8,11 +8,13 @@ This repository releases measurement traces collected from an operational LEO sa
 
 ```graphql
 AlphaWAN/
-├── Network_server/        # ChirpStack deployment and example for channel planning
-├── Gateway_cfg/           # Instructions for configuring RAK7268 gateways
-├── Node_cfg/              # End-node codes and setup guide
-├── Evaluation/            # Scripts and data for results reproduction
-└── README.md              # This file
+├── Constellation-calender/      # This data describes the orbital position and motion state of a satellite over time, helping predict satellite passes, visibility windows, and potential communication opportunities.
+├── Energy profile/              # xxx
+├── Evaluation/                  # xxx
+├── Link-testing-data/           # xxx
+├── PHY-=trace/                  # xxx
+├── Satellite-signaling/         # xxx
+└── README.md                    # This file
 ```
 
 ## Getting Started
