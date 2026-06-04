@@ -48,6 +48,18 @@ If you're new, follow the manual in each directory:
 
 xxx.
 
+## Dataset Description
+
+The released data covers multiple aspects of commercial LEO satellite IoT connectivity:
+
+- **Constellation-level opportunities**: satellite passes, visibility windows, and potential contact opportunities.
+- **Link-level performance**: message delivery success, latency, reliability, and backhaul behavior.
+- **Physical-layer behavior**: beacon reception, signal quality, and contact dynamics.
+- **Energy profile**: device energy consumption under different operating states.
+- **Signaling behavior**: serial-command interaction and satellite IoT protocol logs.
+- **Evaluation traces**: processed traces used for trace-driven replay and performance analysis.
+
+
 ## Contact
 
 For questions, issues, or requests, please contact:
