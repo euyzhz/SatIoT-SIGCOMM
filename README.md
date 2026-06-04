@@ -8,7 +8,7 @@ This repository releases measurement traces collected from an operational LEO sa
 
 ```graphql
 SatIoT-SIGCOMM26/
-├── Constellation-calender/      # This data describes the orbital position and motion state of a satellite over time, helping predict satellite passes, visibility windows, and potential communication opportunities.
+├── Constellation-calendar/      # This data describes the orbital position and motion state of a satellite over time, helping predict satellite passes, visibility windows, and potential communication opportunities.
 ├── Energy profile/              # xxx
 ├── Evaluation/                  # xxx
 ├── Link-testing-data/           # xxx
@@ -29,18 +29,20 @@ If you're new, follow the manual in each directory:
 ## Requirements
 ### 🔩 Hardware
 
-- **Server**: A workstation with Ethernet/WiFi connectivity for Satellite data backhaul.
-- **Devices**: COTS satellite IoT devices (e.g., TQZD-10).
+- **Server**: A workstation or cloud server for receiving satellite backhaul data.
+- **Satellite IoT devices**: COTS satellite IoT terminals, eg, TQZD-10.
     
     *Minimum: 3 devices.*
     
-- **Host**: A device that can be used for serial communication (computer recommended).
+- **Host machine**: A device that can be used for serial communication (computer recommended).
     
 
 ### 💻 Software
 
-- **Tools**：Serial Port PC Software
-- **Operating System**: Windows 10 or Ubuntu 22.04 LTS
+- **Operating System**: Windows 10 or Ubuntu 22.04 LTS.
+- **Python**: Python 3.8 or later.
+- **MATLAB**: Required only for MATLAB-based analysis scripts.
+- **Serial tools**：Required only if users want to reproduce hardware experiments with satellite IoT devices.
 
 ## Reproducing Results
 
