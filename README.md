@@ -9,11 +9,11 @@ This repository releases measurement traces collected from an operational LEO sa
 ```graphql
 SatIoT-SIGCOMM26/
 ├── Constellation-calendar/      # This data describes the orbital position and motion state of a satellite over time, helping predict satellite passes, visibility windows, and potential communication opportunities.
-├── Energy profile/              # xxx
-├── Evaluation/                  # xxx
-├── Link-testing-data/           # xxx
-├── PHY-trace/                   # xxx
-├── Satellite-signaling/         # xxx
+├── Energy profile/              # Energy consumption measurements of COTS satellite IoT devices under different operating states.
+├── Evaluation/                  # Scripts and processed data used to reproduce the main figures and tables in the paper.
+├── Link-testing-data/           # End-to-end link testing traces, including message delivery, latency, and reliability measurements.
+├── PHY-trace/                   # Physical-layer traces, including beacon reception, signal quality, and contact-level observations.
+├── Satellite-signaling/         # Satellite IoT signaling logs and scripts for interacting with commercial devices.
 └── README.md                    # This file
 ```
 
