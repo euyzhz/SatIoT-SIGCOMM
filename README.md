@@ -30,9 +30,9 @@ If you're new, follow the manual in each directory:
 ### 🔩 Hardware
 
 - **Server**: A workstation or cloud server for receiving satellite backhaul data.
-- **Satellite IoT devices**: COTS satellite IoT terminals, eg, TQZD-10.
+- **Satellite IoT devices**: COTS satellite IoT terminals.
     
-    *Minimum: 3 devices.*
+    *Minimum: 8 devices.*
     
 - **Host machine**: A device that can be used for serial communication (computer recommended).
     
@@ -44,9 +44,6 @@ If you're new, follow the manual in each directory:
 - **MATLAB**: Required only for MATLAB-based analysis scripts.
 - **Serial tools**：Required only if users want to reproduce hardware experiments with satellite IoT devices.
 
-## Reproducing Results
-
-xxx.
 
 ## Dataset Description
 
