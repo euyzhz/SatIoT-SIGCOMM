@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository releases measurement traces collected from an operational LEO satellite IoT network and reproduces the results presented in our SIGCOMM 2026 paper.
+This repository releases measurement traces collected from an operational LEO satellite IoT network and measurement tools used in our SIGCOMM 2026 paper.
 
 ## Repository Structure
 
