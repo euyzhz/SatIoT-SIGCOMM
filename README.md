@@ -62,9 +62,9 @@ Ruonan Li - ruo-nan.li@connect.polyu.hk
 ```bibtex
 @inproceedings{Zhang2026SatIoT,
  title      = {Planet-Scale IoT Connectivity via LEO Satellites},
- author     = {Ziyue Zhang, Xianjin Xia, Ruonan Li, Jinhong Liu, Yuanqing Zheng, Congcong Miao, Mo Li},
+ author     = {Ziyue Zhang, Xianjin Xia, Ruonan Li, Jinhong Liu, Yuanqing Zheng, Linghe Kong, Mo Li},
  booktitle  = {Proceedings of the ACM SIGCOMM 2026 Conference},
  year       = {2026},
- doi        = {https://doi.org/10.1145/xxxxxxx.xxxxxxx}
+ doi        = {https://doi.org/10.1145/3789240.3829147}
  }
 ```
