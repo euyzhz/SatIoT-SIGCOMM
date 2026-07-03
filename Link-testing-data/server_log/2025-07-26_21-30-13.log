@@ -1,9 +1,0 @@
-2025-07-26 21:30:14 [INFO] Logs written to C:\Users\15652\Downloads\logs
-2025-07-26 21:30:14 [INFO] Config file written to C:\Users\15652\Downloads\config.json
-2025-07-26 21:30:14 [INFO] i18n: zh-CN, mode: gui, port: 58080, path: G:\SteamLibrary\steamapps\common\PalServer\Pal\Saved\SaveGames\0\CD8267FB46A343754DFF88A1B4185BAA, password: None, JWT_SECRET_KEY: X2Nvbm5sb3N0, shownDonateInfo: {'zh-CN': True}
-2025-07-26 21:30:14 [INFO] Running Palworld-Pal-Editor version: 0.13.1-RELEASE-9426957
-2025-07-26 21:30:14 [INFO] Palworld Pal Editor, made by _connlost with ❤.
-2025-07-26 21:30:14 [INFO] Waiting for backend response...
-2025-07-26 21:30:14 [INFO] Backend ready, launching GUI...
-2025-07-26 21:30:14 [INFO] If GUI doesn't work for you, check out this post: https://github.com/KrisCris/Palworld-Pal-Editor/issues/4
-2025-07-26 21:30:14 [INFO] LISTENING ON 127.0.0.1:58080.
