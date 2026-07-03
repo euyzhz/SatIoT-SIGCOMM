@@ -1,0 +1,40 @@
+LoRa设备自主化控制程序
+========================
+串口: COM9
+天线ID: 3
+设备ID: 12171
+发送间隔: 600.0秒
+载荷长度: 120字节 (240字符)
+运行时长: 72.0小时
+
+程序将自动执行以下流程：
+1. 初始化设备 (AT+CCLR, AT+CLOG=1, AT+SVMD=1)
+2. 每 600.0s 持续发送 1 条 AT+SEND（载荷=120字节，动态长度）
+3. 每 15 分钟执行 AT+CMMQ 查询队列
+按Ctrl+C退出程序
+
+日志文件: 2025-11-16-19-35-37.TXT
+Traceback (most recent call last):
+  File "D:\tianqicmd\claude_12185.py", line 365, in <module>
+    init_system()
+    ~~~~~~~~~~~^^
+  File "D:\tianqicmd\claude_12185.py", line 263, in init_system
+    print(f"\u2713 串口已连接: {PORT}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 0: illegal multibyte sequence
+Exception ignored in atexit callback <function cleanup at 0x00000173B49F2020>:
+Traceback (most recent call last):
+  File "D:\tianqicmd\claude_12185.py", line 284, in cleanup
+    print(f"{get_timestamp()}\u2713 串口已关闭")
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2713' in position 14: illegal multibyte sequence
+
+[19:35:37.634]=== 执行系统清理 ===
+[19:35:37.634]最后清空设备缓冲区...
+[19:35:37.634]发→◇AT+CCLR
+□
+[19:35:38.145]收←◆
+
++CCLR:OK
+
+OK
+
